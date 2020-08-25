@@ -1,0 +1,20 @@
+{
+  "name": "helsinki_part3_phonebook_backened",
+  "version": "1.0.0",
+  "description": "Node server for Phonebook exercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephenMC27/helsinki_part3_phonebook_backened.git"
+  },
+  "author": "Stephen Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephenMC27/helsinki_part3_phonebook_backened/issues"
+  },
+  "homepage": "https://github.com/StephenMC27/helsinki_part3_phonebook_backened#readme"
+}
