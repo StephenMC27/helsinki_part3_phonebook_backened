@@ -44,7 +44,20 @@ app.get('/info', (request, response) => {
   response.send(`<p>Phonebook has info for ${persons.length} people</p> <p>${date}</p>`)
 })
 
+app.delete('/api/persons/:id', (request, response) => {
+  const id = Number(request.params.id)
+  persons = persons.filter(person => person.id !== id)
+
+  response.status(204).end()
+})
+
 const PORT = 3001
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
+
+// {
+//   name: "Dan Abramov",
+//   number: "703-863-9393",
+//   id: 3
+// }
